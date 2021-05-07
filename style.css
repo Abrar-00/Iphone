@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.navbar {
+  border-bottom: rgb(95, 138, 167) 1px solid;
+  background-color: black;
+  opacity: 92%;
+  width: 100%;
+}
+.fa-apple {
+  margin: 0rem 0.2rem;
+  font-size: 3rem;
+  color: white;
+}
+.navbar-brand:hover {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: white;
+}
+.navbar-brand {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+}
+.nav-link {
+  font-size: 1rem;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nav-link:hover {
+  color: rgb(231, 231, 48);
+}
+/* header section */
+
+.header-img {
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
+  background-image: url(./images/francois-hoang-gYVNvRygCUw-unsplash.jpg);
+}
+.header-img h1 {
+  padding: 1rem 8rem;
+  color: white;
+  font-size: 3.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header-img h6 {
+  color: white;
+  padding-left: 10rem;
+  padding-top: 4rem;
+}
+.header-img .icon {
+  padding: 0rem 1rem;
+  display: inline;
+}
+.header-img i {
+  margin-right: 0.5rem;
+  color: green;
+}
+.header-img .para {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 10rem;
+}
+.header-img .btn-img {
+  margin: 3rem 12rem;
+}
+.header-img .btn {
+  border-radius: 10%;
+  color: white;
+  background-color: rgba(0, 128, 0, 0.801);
+}
+.comment {
+  font-size: 0.8rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: -23rem;
+  margin-left: 57rem;
+  width: 20%;
+}
+.comment-2 {
+  font-size: 0.8rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 1rem;
+  margin-left: 54rem;
+  width: 20%;
+}
+.comment-3 {
+  font-size: 0.8rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 1rem;
+  margin-left: 60rem;
+  width: 20%;
+}
+
+/* second part */
+
+.col-md-6 h6 {
+  margin-top: 8rem;
+  margin-left: 4rem;
+  font-size: 1.1rem;
+}
+.col-md-6 i {
+  color: black;
+  font-size: 4rem;
+}
+.col-md-6 .sec {
+  padding: 2rem 2rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.col-md-6 h5 {
+  margin-top: 10rem;
+  text-align: right;
+}
+.col-md-6 h4 {
+  margin-top: 7rem;
+  text-align: right;
+}
+.col-md-6 h4 i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.btn-about {
+  border: rgb(68, 68, 68) 1px solid;
+  padding: 0.5rem 2rem;
+  color: white;
+  background-color: rgb(20, 69, 216);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.col-md-4 img {
+  box-shadow: 0 1px 5px rgba(0, 0, 0.2);
+}
+.col-md-6 h1 {
+  padding-top: 9rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.sec-3 {
+  margin-left: 5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+#service-icon {
+  padding-top: 7rem;
+}
+#service-icon h6 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.btn-service {
+  padding: 0.5rem 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 7%;
+  margin: 4rem 0rem;
+  color: white;
+  background-color: rgb(20, 69, 216);
+  border: rgb(68, 68, 68) 1px solid;
+}
+.service-box {
+  border-radius: 5px;
+  padding: 2rem 1rem;
+  background-color: rgb(202, 207, 212);
+  margin: 1rem 0.1rem;
+  display: flex;
+}
+.service-box .col-md-6 i {
+  font-size: 5rem;
+  padding-top: 4rem;
+  margin: 0.5rem 4.5rem;
+}
+.service-box .col-md-6 h4 {
+  font-size: 1.7rem;
+  color: black;
+  margin: 0.5rem 4rem;
+  text-decoration: underline black;
+}
+.service-box .col-md-6 h4:hover {
+  font-size: 1.8rem;
+}
+.service-box .col-md-6 i:hover {
+  font-size: 5.5rem;
+  margin-left: 4rem;
+}
+.fa-mobile-alt {
+  padding-left: 1.7rem;
+}
+.iphone-heading {
+  padding-left: 1.4rem;
+}
+.fa-tablet-alt {
+  padding-left: 1.1rem;
+}
+.ipad-heading {
+  padding-left: 1.9rem;
+}
+.animated-part {
+  background-repeat: no-repeat;
+  background-image: url(./images/54108-rotating-iphone-trio-mock-ups.gif);
+  background-color: black;
+  width: 100%;
+  height: 40rem;
+}
+.animated-part h1 {
+  color: white;
+  padding-top: 10rem;
+  margin-left: 50rem;
+}
+.animated-part p {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 4rem;
+  padding-left: 50rem;
+}
+.attach-img {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(./images/devon-janse-van-rensburg-klgeyCjdxl0-unsplash.jpg);
+  width: 100%;
+  height: 32rem;
+}
+.attach-img h1 {
+  font-size: 2.4rem;
+  color: white;
+  padding: 4rem 2rem;
+}
+.attach-img p {
+  color: white;
+  padding-left: 3rem;
+}
+.btn-attach {
+  background-color: rgb(231, 231, 48);
+  color: black;
+  font-weight: 500;
+  margin-left: 10rem;
+}
+.last-section p {
+  font-size: 1.5rem;
+  margin: 3rem 0rem;
+}
+.col-md-8 .card-title {
+  margin-top: 4rem;
+  margin-left: 8rem;
+}
+.col-md-8 h4 {
+  margin-top: 2rem;
+  margin-left: 13rem;
+}
+.last-strip {
+  margin-top: 10rem;
+  margin-left: 27em;
+}
+
+@media (max-width: 375px) {
+  .header-img h1 {
+    padding-left: -5rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .header-img .para {
+    margin-left: 2rem;
+    text-align: center;
+  }
+  .header-img .icon {
+    display: block;
+    margin-left: -3rem;
+  }
+  .navbar-toggler-icon {
+    background-color: white;
+    border-radius: 50%;
+  }
+  .header-img .btn {
+    display: none;
+    margin-top: -3rem;
+    margin: 0rem 2rem;
+  }
+  .comment {
+    display: none;
+  }
+  .comment-2 {
+    display: none;
+  }
+  .comment-3 {
+    display: none;
+  }
+  .animated-part {
+    display: flex;
+  }
+}
